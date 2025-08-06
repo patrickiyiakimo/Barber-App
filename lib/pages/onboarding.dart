@@ -31,13 +31,33 @@ class _OnboardingState extends State<Onboarding> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 20.0),
+              padding: const EdgeInsets.only(top: 30.0),
               child: Text(
                 'Book appointments, explore trending styles,\nand connect with top barbers all in one place.\nYour grooming experience just got\nsmarter and easier.',
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.grey[700], fontSize: 16.0),
               ),
             ),
+            SizedBox(height: 40.0),
+            Container(
+              height: 60.0,
+              width: MediaQuery.of(context).size.width / 2,
+              decoration: BoxDecoration(
+                color: Colors.blue[600],
+                borderRadius: BorderRadius.circular(20.0),
+              ),
+              child: Center(
+                  child: Text(
+                    "Get Started",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
           ],
         ),
       ),
