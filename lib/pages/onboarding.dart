@@ -40,7 +40,7 @@ class _OnboardingState extends State<Onboarding> {
             ),
             SizedBox(height: 40.0),
             Container(
-              height: 60.0,
+              height: 50.0,
               width: MediaQuery.of(context).size.width / 2,
               decoration: BoxDecoration(
                 color: Colors.blue[600],
